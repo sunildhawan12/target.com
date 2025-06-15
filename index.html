@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Attendance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+   <div class="container">
+    <h2>📍 Smart Attendance</h2>
+    <div id="msg" class="status info">Detecting location...</div>
+     <input type="text" id="idBox" placeholder="Enter your ID" disabled>
+     <button onclick="submitAttendance('IN')" disabled id="inBtn">Check IN</button>
+    <button onclick="submitAttendance('OUT')" disabled id="outBtn">Check OUT</button>
+    <div id="resultMsg" class="status"></div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
